@@ -1,0 +1,17 @@
+.photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px;
+    justify-content: center;
+}
+
+.photo {
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.photo img {
+    margin: 0 auto;
+}
