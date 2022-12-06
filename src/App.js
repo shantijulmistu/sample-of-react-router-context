@@ -16,6 +16,9 @@ function App() {
       children: [
         {
           path: "/",
+          loader: () => {
+            return fetch('https://jsonplaceholder.typicode.com/photos')
+          },
           element: <Home></Home>
         },
         {

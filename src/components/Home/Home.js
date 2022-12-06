@@ -6,9 +6,10 @@ const Home = () => {
     return (
         <div className="photos">
             {
-                photos.map(photo => <div className="photo">
+                photos.map(photo => <div className="photo" >
                     <img src={photo.thumbnailUrl} alt="" />
                     <h3>{photo.title}</h3>
+
                 </div>)
             }
         </div>
